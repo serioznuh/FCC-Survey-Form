@@ -1,0 +1,67 @@
+body {
+  /* background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); */
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 80vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 1em 2em 2em 2em;
+  border: 1px solid;
+}
+
+fieldset {
+  border: none;
+  padding: 0 0 1rem 0;
+}
+
+fieldset p {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 1em;
+  vertical-align: middle;
+}
+
+.inline {
+  float: left;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: bottom;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  min-width: 300px;
+}
+
+fieldset::after {
+  content: "";
+  display: block;
+  clear: both;
+}
